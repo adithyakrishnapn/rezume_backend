@@ -1,6 +1,6 @@
 const db= require('../config/connection');
 const { ObjectId } = require("mongodb");
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 module.exports = {
     DoSignup: (Data)=>{
